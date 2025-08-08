@@ -13,11 +13,11 @@
 </header>
 <main>
 <?php
-$host = 'mysqlsrv.dcs.bbk.ac.uk';
-$db   = 'mplana01db';
-$user = 'mplana01';
-$pass = 'bbkmysql';
-$charset = 'utf8mb4';
+$host = '********';
+$db   = '*******';
+$user = '*******';
+$pass = '********';
+$charset = 'utf8mb4.';
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 $options = [
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
@@ -102,3 +102,4 @@ renderJuiceTable($pdo, 'Veg');
 </main> 
 </body>
 </html>
+
