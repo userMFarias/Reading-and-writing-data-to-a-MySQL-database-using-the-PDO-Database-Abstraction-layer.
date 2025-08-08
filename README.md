@@ -47,3 +47,6 @@ f. All prices should be shown with a preceding “£” sign and formatted to 2 
 have compiled the required data and displayed the HTML tables correctly.
 7. Your php code should go between the <?php ?> tags in index.php, however, your final solution
 should be well structured, with good separation of concerns, using user defined functions.
+
+
+(There is no seperation of concerns in this example, eveirthing is in the index file).
